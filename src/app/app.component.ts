@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'qa-interview-app';
+  editorConfig = {
+    minHeight: 5,
+    placeholder: "Start typing your message",
+    toolbar: [
+      ["bold", "italic", "underline", "strikeThrough", "superscript", "subscript"],
+    ],
+  }
 }
